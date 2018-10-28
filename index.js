@@ -6,7 +6,7 @@ const projectPath = '/home/ali/anghamify-src';
 const exeCode = 'git pull && yarn start';
 
 const secret = process.env.ANGFY_SEC || 'go fish';
-const port = 81;
+const port = 3201;
 
 http.createServer((req, res) => {
 
