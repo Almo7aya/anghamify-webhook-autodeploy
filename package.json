@@ -1,0 +1,14 @@
+{
+  "name": "anghamify-webhook-autodeploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Almo7aya/anghamify-webhook-autodeploy.git",
+  "author": "Ali Almohaya <alialmohaya@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/pm2 start ./ecosystem.config.js"
+  },
+  "dependencies": {
+    "pm2": "^3.2.2"
+  }
+}

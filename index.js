@@ -21,6 +21,7 @@ http.createServer((req, res) => {
 
         // start exec the auto deploy code
         exec(`cd ${projectPath} && ${exeCode}`);
+        console.log('reloading...');
 
         res.end('OK');
     });
